@@ -39,7 +39,7 @@ dependencies:
   google_fonts: ^8.2.1
 
   # Auth and networking
-  flutter_appauth: ^12.1.0        # OIDC/PKCE login against Keycloak
+  flutter_appauth: ^13.0.0        # OIDC/PKCE login against Keycloak
   # Held at 9.x deliberately. 10 and 11 change the Android ciphers and discard
   # anything written by an older version, which would drop the stored device
   # fingerprint (forcing an approval-gated re-bind for every employee) and any
